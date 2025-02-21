@@ -149,7 +149,7 @@ a:active {
   overflow-x: hidden;
 
   direction: rtl;
-  z-index: 2;
+  z-index: 5;
 }
 
 .sld-2-text-container p {
@@ -381,10 +381,10 @@ a:active {
 
 @keyframes bact-anim-1 {
   0% {
-    -webkit-transform: translate(-10%, -20%);
+    transform: translate(-10%, -20%);
   }
   100% {
-    -webkit-transform: translate(30%, 60%);
+    transform: translate(30%, 60%);
   }
 }
 
@@ -393,24 +393,24 @@ a:active {
   bottom: 185px;
   left: 25px;
 
-  animation: bact-anim-1 5s infinite alternate linear;
+  animation: bact-anim-1 15s infinite alternate linear;
 }
 
 @keyframes bact-anim-2 {
   0% {
-    -webkit-transform: scale(0.9) rotate(0deg) translate(0, 0);
+    transform: scale(0.9) rotate(0deg) translate(0, 0);
   }
   25% {
-    -webkit-transform: scale(1) rotate(90deg) translate(-70%, 120%);
+    transform: scale(1) rotate(90deg) translate(-70%, 120%);
   }
   50% {
-    -webkit-transform: scale(1.1) rotate(180deg) translate(80%, 0%);
+    transform: scale(1.1) rotate(180deg) translate(80%, 0%);
   }
   75% {
-    -webkit-transform: scale(1.2) rotate(270deg) translate(70%, 20%);
+    transform: scale(1.2) rotate(270deg) translate(70%, 20%);
   }
   100% {
-    -webkit-transform: scale(0.9) rotate(360deg) translate(0, 0);
+    transform: scale(0.9) rotate(360deg) translate(0, 0);
   }
 }
 
@@ -419,7 +419,7 @@ a:active {
   top: 210px;
   right: 60px;
 
-  animation: bact-anim-2 40s infinite normal linear;
+  animation: bact-anim-2 80s infinite normal linear;
 
   z-index: 3;
 }
@@ -432,10 +432,10 @@ a:active {
 
 @keyframes bact-anim-4 {
   0% {
-    -webkit-transform: translate(50%, 70%);
+    transform: translate(50%, 70%);
   }
   100% {
-    -webkit-transform: translate(-25%, -15%);
+    transform: translate(-25%, -15%);
   }
 }
 
@@ -444,7 +444,7 @@ a:active {
   top: 70px;
   right: 250px;
 
-  animation: bact-anim-4 5s infinite alternate linear;
+  animation: bact-anim-4 15s infinite alternate linear;
 }
 
 .img-1-5 {
@@ -461,13 +461,13 @@ a:active {
 
 @keyframes bact-anim-7 {
   0% {
-    -webkit-transform: scale(1.2) rotate(0deg) translate(-10%, -5%);
+    transform: scale(1.2) rotate(0deg) translate(-10%, -5%);
   }
   50% {
-    -webkit-transform: scale(1.1) rotate(5deg) translate(-5%, -3%);
+    transform: scale(1.1) rotate(5deg) translate(-5%, -3%);
   }
   100% {
-    -webkit-transform: scale(1) rotate(0deg) translate(0, 0);
+    transform: scale(1) rotate(0deg) translate(0, 0);
   }
 }
 
@@ -476,7 +476,7 @@ a:active {
   right: 260px;
   bottom: -100px;
 
-  animation: bact-anim-7 6s infinite alternate linear;
+  animation: bact-anim-7 16s infinite alternate linear;
 }
 
 /* slide 2 */
